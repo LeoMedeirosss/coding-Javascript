@@ -18,4 +18,8 @@ let array = [1,2,3,4,5,6,7,8,9,10]
 
 let pop = array.pop() //remover o último elemento
 
-let push = array.push(10)
+let push = array.push(10) //adiciona no fim do array
+
+let shift = array.shift() //remove o primeiro elemento
+
+let unshift = array.unshift(1) // adiciona no inicio do array
