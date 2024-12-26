@@ -22,4 +22,11 @@ let push = array.push(10) //adiciona no fim do array
 
 let shift = array.shift() //remove o primeiro elemento
 
-let unshift = array.unshift(1) // adiciona no inicio do array
+let unshift = array.unshift(1) //adiciona no inicio do array
+
+array.forEach(num =>{
+    console.log(num) //igual um for, mais simplificado
+})
+
+console.log(array.includes(11)) //false
+console.log(array.includes(10)) //true
