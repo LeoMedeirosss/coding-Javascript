@@ -30,3 +30,10 @@ array.forEach(num =>{
 
 console.log(array.includes(11)) //false
 console.log(array.includes(10)) //true
+
+let numero = "10"
+console.log(numero.padStart(4,"2"))
+
+let frase = "O rato roeu a roupa do rei de roma"
+let palavras = frase.split(" ")
+console.log(palavras)
