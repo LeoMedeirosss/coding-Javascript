@@ -1,3 +1,7 @@
-let alerta = alert("ALERTA")
+let pessoa = {
+    "nome": "Matheus",
+    "idade": 28
+}
 
-let alerta2 = alert("ALERTA2")
+console.log(pessoa.nome)
+console.log(pessoa.idade)
