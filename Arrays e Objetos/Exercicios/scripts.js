@@ -59,3 +59,41 @@ for (let i = 0; i < array7.length; i++) {
 
 console.log(" ")
 console.log(7)
+let json1 = {
+    "nome": "João",
+    "idade": 19,
+    "profissão":"Padeiro"
+}
+console.log(json1.nome)
+console.log(json1.idade)
+console.log(json1.profissão)
+
+console.log(" ")
+console.log(8)
+const frase = "array feito atravez de uma string"
+const arrfrase = frase.split(" ")
+
+for(let i = 0; i<arrfrase.length; i++){
+    console.log(arrfrase[i])
+}
+
+console.log(" ")
+console.log(9)
+const calculadora = {
+    soma: function(a,b){
+        return a+b;
+    },
+    subtrair: function(a,b){
+        return a-b
+    },
+    multiplicar: function(a,b){
+        return a*b
+    },
+    dividir: function(a,b){
+        return a/b
+    }
+}
+console.log(calculadora.soma(1,2))
+console.log(calculadora.subtrair(4,2))
+console.log(calculadora.multiplicar(5,5))
+console.log(calculadora.dividir(6,3))
