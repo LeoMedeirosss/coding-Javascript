@@ -1,11 +1,12 @@
-console.log("valores booleanos")
-console.log(true)
-console.log(false)
-console.log(5>2)
-console.log(2>5)
-console.log(2<=2)
-console.log(3>=6)
-console.log("2" == 2)
-console.log(2 === "2")
-console.log(2 === 2)
+const obj = {
+    falar: function(){
+        console.log("falar")
+    },
+    nome:" ",
+    setNome: function(nome){
+        this.nome = nome
+    }
+}
 
+obj.setNome("Robson")
+console.log(obj.nome)
