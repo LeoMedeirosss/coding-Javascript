@@ -1,11 +1,16 @@
-console.log("valores booleanos")
-console.log(true)
-console.log(false)
-console.log(5>2)
-console.log(2>5)
-console.log(2<=2)
-console.log(3>=6)
-console.log("2" == 2)
-console.log(2 === "2")
-console.log(2 === 2)
+//Uma classe pode herdar propriedades de outras classes
+//uso do extends
 
+class Mamifero{
+    constructor(patas){
+        this.patas = patas
+    }
+}
+
+class Gato extends Mamifero{
+    construtor(patas,cor){
+        super(patas,patas)
+        this.cor = cor
+    }
+}
+let siames = new Gato(4,"preto")
