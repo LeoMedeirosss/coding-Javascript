@@ -14,3 +14,26 @@ let yorkshire = Object.create(cachorro)
 
 labrador.raça = "Labrador"
 yorkshire.raça = "York"
+
+//duas formas de instanciar um objeto de uma classe
+
+function criarCachorro(raça,patas,cor) {
+    let cachorro = Object.create({})
+    cachorro.raça = raça
+    cachorro.patas = patas
+    cachorro.cor = cor
+    return cachorro
+}
+
+let doberman = criarCachorro("doberman",4,"preto")
+console.log(doberman)
+
+function criarCachorro2(raça,patas,cor){
+    this.raça = raça
+    this.patas = patas
+    this.cor = cor
+}
+
+let husky = new criarCachorro2("Husky",4,"branco")
+
+console.log(husky)
