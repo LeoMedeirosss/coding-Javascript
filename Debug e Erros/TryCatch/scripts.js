@@ -3,5 +3,6 @@
 try{
     let b = a * 2
 } catch(e){
-    console.log(e)
+    console.log(e) //não para o programa, apenas exibe o erro.
+    //throw new Error(e) // para o programa.
 }
