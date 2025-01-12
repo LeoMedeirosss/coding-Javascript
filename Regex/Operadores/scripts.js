@@ -24,3 +24,17 @@ console.log(opc.test("abcd")) //true
 console.log(opc.test("ae")) //false
 console.log(opc.test("abcdefg")) //true
 console.log(opc.test("abcdfg")) //true
+
+//Ocorrência -> {}
+
+const telefone = /\d{4,5}-\d{4}/
+console.log(telefone.test("99270-7523")) //true
+console.log(telefone.test("9270-7523")) //true
+console.log(telefone.test("99270-753")) //false
+
+//Choice Pattern -> ||
+
+const nome =/\w+:(Matheus|Jose|Maria|Ana)/
+console.log(nome.test("nome:Matheus")) //true
+console.log(nome.test("nome:João")) //false
+console.log(nome.test("nome:Ana")) //true
