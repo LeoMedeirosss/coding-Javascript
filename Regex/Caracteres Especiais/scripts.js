@@ -40,3 +40,7 @@ console.log(wRegex.test("abcd")) //true
 console.log(wRegex.test("   ")) //false
 console.log(wRegex.test("12345")) //true
 console.log(wRegex.test("abcd12345-Ç")) //true
+
+const dia =/\d\d/
+console.log(dia.test("2019") && "2019".length == 2 && "2019" <= "31")
+console.log(dia.test("30") && "30".length == 2 && "30" <= "31" )
