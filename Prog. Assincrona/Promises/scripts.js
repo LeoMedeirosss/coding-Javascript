@@ -1,3 +1,12 @@
-let alerta = alert("ALERTA")
+//ações assíncronas que produzem um valor em algum momento do código.
+//promete ao javascript que o valor pode estar presente em algum momento do código
 
-let alerta2 = alert("ALERTA2")
+let promessa = Promise.resolve(5 + 1)
+
+console.log("Outros códigos")
+console.log(promessa)
+
+promessa.then((value) => (console.log(`o valor é ${value}`)))
+
+//falha nas promises
+
