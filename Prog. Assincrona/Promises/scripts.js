@@ -19,7 +19,3 @@ console.log("Outros códigos")
 
 promessa2.then(value=> console.log(value))
          .catch(reason => console.log("Falhou " + reason))
-
-//rejeitar promises
-
-
