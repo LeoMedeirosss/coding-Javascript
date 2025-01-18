@@ -14,3 +14,6 @@ async function resSoma(a,b,c) {
 }
 
 resSoma(1,2,3).then(value => console.log(value))
+
+//espera os 4 segundos da primeira função somaDelay
+//para deois somar com o C na função async resSoma
