@@ -14,3 +14,8 @@ console.log(document.getElementsByTagName("p"))
 
 console.log(document.getElementById('principal'))
 console.log(document.getElementById('lista'))
+
+//acessando pela classe
+
+console.log(document.getElementsByClassName("texto1"))
+console.log(document.getElementsByClassName("lista"))
