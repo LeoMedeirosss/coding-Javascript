@@ -18,3 +18,9 @@ novoElemento2.appendChild(texto)
 let p = document.querySelector("#texto1")
 let pai = p.parentNode
 pai.appendChild(novoElemento2)
+
+//TextNode
+
+let pSemTexto = document.getElementById("sem-texto")
+let texto2 = document.createTextNode("Inserindo texto")
+pSemTexto.appendChild(texto2)
