@@ -45,3 +45,12 @@ window.addEventListener("mousemove", function(e){ //imprime na tela os eixos x e
     console.log(e.x)
     console.log(e.y)
 })
+
+//Evento por Scroll
+//Muito usado para animações
+
+window.addEventListener("scroll", function(e){
+    if(window.scrollY > 1000) {
+        console.log("ativou")
+    }
+})
