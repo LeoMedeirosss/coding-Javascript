@@ -1,3 +1,16 @@
-let alerta = alert("ALERTA")
+//Eventos de Tecla.
+//keyup e keydown
 
-let alerta2 = alert("ALERTA2")
+window.addEventListener("keydown",function(e){
+    if(e.key == 'l'){
+        console.log("apertou o L")
+    }
+})
+
+window.addEventListener('keyup',function(e){
+    if(e.key == "l"){
+        console.log("soltou o l")
+    }
+})
+
+//Eventos de Mouse
