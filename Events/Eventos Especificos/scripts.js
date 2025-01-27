@@ -54,3 +54,14 @@ window.addEventListener("scroll", function(e){
         console.log("ativou")
     }
 })
+
+//Evento de carregamento
+//Quando a página é carregada ou antes do usuário fechar a página
+
+window.addEventListener("load", function(){
+    this.alert("assine os nossos termos de uso")
+})
+
+window.addEventListener("beforeunload",function(e){
+    this.event.returnvalue = null
+})
