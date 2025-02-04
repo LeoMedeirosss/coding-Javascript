@@ -1,0 +1,5 @@
+-O certo é sempre iniciar um projeto com um package.json
+
+-É possível criar a partir do template, utilizando o comando "npm init"
+
+-Este arquivo package.json serve para configuração e salva as dependências
