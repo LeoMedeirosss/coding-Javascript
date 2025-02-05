@@ -1,0 +1,15 @@
+API é Application Programming Interface
+
+Maneira de se comunicar via http a um servidor e fazer operações
+como visualizar, deletar, criar e atualizar dados
+
+Grande parte dos softwares desenvolvidos em node.js tem uma API
+
+REST = Representational State Transfer. Princípios e regras que permitem criar
+uma aplicação com interfaces bem definidas.
+
+RESTful = Capacidade de aplicar os princípios do REST
+Get = solicitar dados
+Post = inserir dados
+Delete = deletar dados
+Put = atualizar dados
